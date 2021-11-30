@@ -48,6 +48,7 @@ function AddrModal(props:{[key : string] : any}) {
     
     // 주소 검색
     const addrSeach = () => {
+        // 싱가포르 우편번호(6자리) 타 국가 사용 시 해당 로직 가변적으로 변경
         if(zipCode.length != 6){
             alert("Please enter a 6-digit postal code");
             return;
