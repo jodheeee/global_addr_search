@@ -57,7 +57,7 @@ function AddrModal(props:{[key : string] : any}) {
             url: 'https://global-address.p.rapidapi.com/V3/WEB/GlobalAddress/doGlobalAddress',
             method: 'get',
             params: {
-                ctry          : 'SG', 
+                ctry          : 'SG', // 국가코드 : 싱가포르 값 고정(가변적으로 사용가능)
                 postal        : zipCode,
                 format        : 'json', 
                 DeliveryLines : 'Off', 
