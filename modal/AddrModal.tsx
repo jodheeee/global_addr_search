@@ -3,7 +3,7 @@ import axios from 'axios';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Loader from '../utils/Loader'
-import './AddrModal.scss';
+import '../css/AddrModal.scss';
 
 function AddrModal(props:{[key : string] : any}) {
     // 모달 베이스 스타일
