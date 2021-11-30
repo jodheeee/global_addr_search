@@ -5,6 +5,6 @@
 1. zip code
 2. country code
 
-### Reference
+### Uses & Reference
 1. apidapi - https://rapidapi.com/adminMelissa/api/global-address/
 2. mui(modal) - https://mui.com/components/modal/#main-content
