@@ -1,5 +1,5 @@
 import React,{ useState } from 'react';
-import AddrModal from '../item/AddrModal';
+import AddrModal from './modal/AddrModal';
 
 function Index() {
     const [modalSet, setModalSet] = useState(false);
