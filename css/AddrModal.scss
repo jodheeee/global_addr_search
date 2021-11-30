@@ -1,0 +1,39 @@
+.postalCodeModal{
+    .postalCodeBtmCon{
+        margin-top: 40px;
+        .postalCodeList{
+            position: relative;
+            padding-left: 25px;
+            padding-bottom: 10px;
+            p{
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            span{
+                display: block;
+                font-size: 16px;
+            }
+            .postalSelectBt{
+                width: 100px;
+                border: 1px solid #004a87;
+                height: 43px;
+                background-color: #fff;
+                transition: all .4s ease;
+                color: #004a87;
+                line-height: 40px;
+                text-align: center;
+                border-radius: 4px;
+                font-weight: 700;
+                position: absolute;
+                right: 25px;
+                top: 20px;
+                cursor: pointer;
+            }
+            .postalSelectBt:hover{
+                background-color: #004a87;
+                color: #ffe800;
+            }
+        }
+    }
+}
